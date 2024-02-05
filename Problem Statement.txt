@@ -1,0 +1,30 @@
+Objective :
+	HackerNews (https://news.ycombinator.com) is a very popular website among developers for
+latest news and projects. However sorting of the items is done via their own algorithms and we want
+to build a clone which keeps getting the top 90 articles and shows them in reverse chronological order
+
+
+Requirement :
+1. Each news item will have the following fields - url, hackernews url, posted on, upvotes and comments
+2. A script which crawls the first three pages,
+   extract the news items and adds in the database,
+   if the news item already exits, it updates the upvote and comment counts.
+3. A user can signup or login to the dashboard
+4. A user can mark a news item as read or delete it.
+   Deleted items are not shown in his panel but are not deleted from the database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
